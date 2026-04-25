@@ -1,8 +1,8 @@
 const gameB = document.getElementById("gameBtn");
 let map_counter = 0;
 const maps = [
-    "game_photos/Ming.jpg",
-    "game_photos/map_2.jpg"
+    "./game_photos/Ming.jpg",
+    "./game_photos/map_2.jpg"
 ];
 
 function getRandomLocation() {
@@ -36,7 +36,7 @@ function renderGame() {
         <div class="game-container">
             <button type="button" class="image-button" id="image_find" 
                     style="position: absolute; left: ${loc.x}px; top: ${loc.y}px; border: none; background: none;">
-                <img src="game_photos/pic_one.jpeg" alt="Find Ming" style="width: 30px;">
+                <img src="./game_photos/pic_one.jpeg" alt="Find Ming" style="width: 30px;">
             </button>
         </div>
     `;
