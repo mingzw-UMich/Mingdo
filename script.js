@@ -55,7 +55,7 @@ btn1.addEventListener("click", function() {
 
         gameBtn.addEventListener('click', function() {
             // This tells the browser to change the page
-            window.location.href = "/Users/MingWang/Pookie_Website/game_page/game.html";
+            window.location.href = "game_page/game.html";
         });
     });
 
