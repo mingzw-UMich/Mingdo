@@ -1,6 +1,6 @@
 const btn1 = document.getElementById("button1");
 const new_game_btn = null;
-const photos = ["/Users/MingWang/Pookie_Website/photos/Slurp_Slurp.jpeg", "/Users/MingWang/Pookie_Website/photos/Spread_Eagle.jpeg", "/Users/MingWang/Pookie_Website/photos/IMG_0896.jpeg", "/Users/MingWang/Pookie_Website/photos/IMG_1815.jpeg", "/Users/MingWang/Pookie_Website/photos/IMG_3748.jpeg", "/Users/MingWang/Pookie_Website/photos/IMG_4076.jpeg", "/Users/MingWang/Pookie_Website/photos/IMG_5071.jpeg", "/Users/MingWang/Pookie_Website/photos/Kiss.jpeg"];
+const photos = ["photos/Slurp_Slurp.jpeg", "photos/Spread_Eagle.jpeg", "photos/IMG_0896.jpeg", "photos/IMG_1815.jpeg", "photos/IMG_3748.jpeg", "photos/IMG_4076.jpeg", "photos/IMG_5071.jpeg", "photos/Kiss.jpeg"];
 let currentIndex = 0;
 
 btn1.addEventListener("click", function() {
