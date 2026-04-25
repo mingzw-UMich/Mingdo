@@ -1,8 +1,8 @@
 const gameB = document.getElementById("gameBtn");
 let map_counter = 0;
 const maps = [
-    "/Users/MingWang/Pookie_Website/game_photos/Ming.jpg",
-    "/Users/MingWang/Pookie_Website/game_photos/map_2.jpg"
+    "game_photos/Ming.jpg",
+    "game_photos/map_2.jpg"
 ];
 
 function getRandomLocation() {
